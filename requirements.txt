@@ -1,0 +1,7 @@
+wordcloud
+textblob
+click
+numpy
+matplotlib
+PIL
+black
