@@ -23,6 +23,7 @@ You can install dependencies by opening yor Terminal or Command Prompt and use o
 pip install -r requirements.txt
 
 Or by using Makefile make command
+
 make install
 
 ### **Running as CLI**
