@@ -41,6 +41,6 @@ make run_sad_example
 
 Examples
 
-[happy](https://github.com/punkmic/sentiment_emoji_wordcloud/blob/1039f8da31288200356b4347b7df37140ef53a9a/happy.png)
+![happy](https://github.com/punkmic/sentiment_emoji_wordcloud/blob/1039f8da31288200356b4347b7df37140ef53a9a/happy.png)
 
-[sad](https://github.com/punkmic/sentiment_emoji_wordcloud/blob/1039f8da31288200356b4347b7df37140ef53a9a/sad.png)
+![sad](https://github.com/punkmic/sentiment_emoji_wordcloud/blob/1039f8da31288200356b4347b7df37140ef53a9a/sad.png)
