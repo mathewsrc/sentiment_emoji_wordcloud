@@ -3,5 +3,5 @@ textblob
 click
 numpy
 matplotlib
-PIL
+Pillow
 black

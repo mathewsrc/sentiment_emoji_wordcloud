@@ -5,11 +5,11 @@ from PIL import Image
 
 
 def show_wordcloud(corpora, sentiment, background):
-    '''Generate a sad or happy wordcloud from a text'''
+    """Generate a sad or happy wordcloud from a text"""
     # get a set of stop words
     stopwords = set(STOPWORDS)
 
-    # get the mask 
+    # get the mask
     mask = get_mask(sentiment)
 
     # generate a wordcloud from text

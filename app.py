@@ -1,6 +1,6 @@
 import click
-from emoji_sentiment.sentiment_analysis import extract_sentiment
-from emoji_wordcloud.wordcloud_analysis import show_wordcloud
+from text_process.emoji_sentiment.sentiment_analysis import extract_sentiment
+from text_process.emoji_wordcloud.wordcloud_analysis import show_wordcloud
 
 
 @click.command

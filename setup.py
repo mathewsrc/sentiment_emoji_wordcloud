@@ -4,7 +4,7 @@ with open('README.md', 'r') as f:
     description = f.read()
 
 with open('requirements.txt') as f:
-    requirements = f.read().splilines()
+    requirements = f.read().splitlines()
 
 setup(
     name='sentiment_emoji_wordcloud'
