@@ -14,10 +14,8 @@ format:
 		black ./text_process/emoji_wordcloud/*.py
 
 run_happy_example:
-		python app.py --corpora 'sample_happy_data.txt' --wc_background 'white'
+		python cli.py --corpora samples/sample_sad_data.txt --wc_background 'white'
 
 run_sad_example:
-		python app.py --corpora 'sample_sad_data.txt' --wc_background 'black'
+		python cli.py --corpora samples/sample_sad_data.txt --wc_background 'black'
 
-all:
-	install format

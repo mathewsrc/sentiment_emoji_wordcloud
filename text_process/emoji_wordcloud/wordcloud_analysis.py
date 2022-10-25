@@ -32,9 +32,9 @@ def get_mask(sentiment):
     """Return a mask by transforming a png image to a numpy array and swipe black to white"""
     mask = []
     if sentiment > 0:
-        mask = np.array(Image.open("1F642_color.png"))
+        mask = np.array(Image.open("emoji_images/1F642_color.png"))
         mask = np.where(mask == 0, 255, mask)
     else:
-        mask = np.array(Image.open("1F643_color.png"))
+        mask = np.array(Image.open("emoji_images/1F643_color.png"))
         mask = np.where(mask == 0, 255, mask)
     return mask
