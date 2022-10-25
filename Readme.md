@@ -23,6 +23,7 @@ You can install dependencies by opening yor Terminal or Command Prompt and use o
 pip install -r requirements.txt
 
 Or by using Makefile make command
+
 make install
 
 ### **Running - CLI (command line tool)**
@@ -38,3 +39,9 @@ Or by using Makefile and its command make you can just use one these commands on
 make run_happy_example
 
 make run_sad_example
+
+Examples
+
+![happy](https://github.com/punkmic/sentiment_emoji_wordcloud/blob/1039f8da31288200356b4347b7df37140ef53a9a/happy.png)
+
+![sad](https://github.com/punkmic/sentiment_emoji_wordcloud/blob/1039f8da31288200356b4347b7df37140ef53a9a/sad.png)
