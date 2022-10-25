@@ -9,13 +9,13 @@ the polarity score as float ranging from -1.0 to 1.0.
 
 ### **Word cloud**
 
-Word cloud is a technique for visualizing  frequent words in a text where the size of the words represents their frequency.
+Word cloud is a technique for visualizing frequent words in a text where the size of the words represents their frequency.
 
 ### **Requirements**
 
 Python 3.6 or latest version
 A text file for which you want to generate a word cloud with the extension .txt. This project has three example files that can be used as
-example (sample_happy_data.txt, sample_happy_data2.txt and sample_sad_data.txt)
+example (sample_happy_data.txt, sample_happy_data2.txt and sample_sad_data.txt) located in samples directory.
 
 ### **Installing dependencies**
 You can install dependencies by opening yor Terminal or Command Prompt and use one of these commands:
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 Or by using Makefile make command
 make install
 
-### **Running as CLI**
+### **Running - CLI (command line tool)**
 
 Simply, open your Terminal or Command Prompt and try one of these below commands:
 

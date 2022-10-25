@@ -18,3 +18,6 @@ run_happy_example:
 
 run_sad_example:
 		python app.py --corpora 'sample_sad_data.txt' --wc_background 'black'
+
+all:
+	install format

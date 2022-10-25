@@ -13,7 +13,7 @@ setup(
     author_email='',
     description='Generate a sentiment emoji masked wordcloud',
     long_description=description,
-    url='',
+    url='https://github.com/punkmic',
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8'
