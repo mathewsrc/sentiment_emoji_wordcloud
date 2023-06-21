@@ -1,6 +1,4 @@
-# **This project uses TextBlob and Wordcloud libraries to generate sentiment emoji masked wordcloud**
-
-### **Sentiment analysis**
+# **Sentiment analysis with TextBlob and Wordcloud**
 
 Sentiment analysis is a text analysis method that detects polarity (e.g. a positive or negative opinion) 
 within the text. Textblob is a python module used in Natural Language Processing (NLP) tasks like tokenization, 
