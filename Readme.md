@@ -18,26 +18,35 @@ example (sample_happy_data.txt, sample_happy_data2.txt and sample_sad_data.txt) 
 ### **Installing dependencies**
 You can install dependencies by opening yor Terminal or Command Prompt and use one of these commands:
 
+```bash
 pip install -r requirements.txt
+```
 
 Or by using Makefile make command
 
+```bash
 make install
-
+```
 ### **Running - CLI (command line tool)**
 
 Simply, open your Terminal or Command Prompt and try one of these below commands:
 
+```bash
 python app.py --corpora 'sample_happy_data.txt' --wc_background 'white'
+```
 
+```bash
 python app.py --corpora 'sample_sad_data.txt' --wc_background 'black'
-
+```
 Or by using Makefile and its command make you can just use one these commands on your Terminal or Command Prompt:
 
+```bash
 make run_happy_example
+```
 
+```bash
 make run_sad_example
-
+```
 Examples
 
 ![happy](https://github.com/punkmic/sentiment_emoji_wordcloud/blob/1039f8da31288200356b4347b7df37140ef53a9a/happy.png)
